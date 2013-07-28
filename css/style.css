@@ -1,0 +1,184 @@
+#container
+{
+	width:100%;
+	max-width:600px;
+	
+	border:1px solid black;
+	margin:0 auto;
+	position: relative;
+}
+h1
+{
+	text-decoration:underline;
+	padding:0 10px;
+}
+.note
+{
+	padding:0 10px;
+}
+.clear
+{
+	clear:both;
+}
+#class-select
+{
+	display:none;
+}
+#submit
+{
+	float:right;
+	font-size:14px;
+}
+section.field label
+{
+	 font-size: 18px;
+}
+section.field input
+{
+
+    font-size: 15px;
+    height: 22px;
+    line-height: 22px;
+    width: 200px;
+}
+
+#errors ul li 
+{
+	color:red;
+}
+
+#back {
+  background: none repeat scroll 0 0 #0099CC;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px 0 1px 1px;
+    height: 24px;
+    left: -83px;
+    margin: 0;
+    padding: 5px;
+    position: absolute;
+    width: 72px;
+}
+#back a {
+    margin-left: 5px;
+    font-family: Tahoma, Geneva, sans-serif;
+    color:#fff;
+    text-decoration: none;
+
+}
+#back:hover
+{
+	background:#fff;
+	
+}
+#back:hover a
+{
+	color:#09C;
+}
+
+#topbar {
+    background: none repeat scroll 0 0 #0099CC;
+    border-bottom: 1px solid black;
+    height: 45px;
+    width: 100%;
+}
+#topbar ul
+{
+   display: block;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+
+}
+#topbar ul li{
+  border-right: 1px solid black;
+    display: inline-block;
+    height: 100%;
+    padding: 0 13px;
+}
+#topbar ul li.last
+{
+	border: 0;
+	padding-right:15px;
+}
+#topbar ul li.current h3
+{
+	color:white;
+}
+.page_title
+{
+	margin:0;
+	padding:12px 0 0;
+	font-size:15px;
+	color: #105E77;
+}
+form
+{
+	padding:0 10px;
+}
+/* Page 3 Style  */
+.new-class
+{
+	width:100%;
+	max-width:500px;
+	position: relative;
+	height: 200px;
+	margin-top:5px;
+}
+.new-class section label {
+    float: left;
+    width: 87px;
+}
+.remove-class
+{
+	float:right;
+}
+#add-class
+{
+	 margin-bottom: 50px;
+}
+.course-info {
+	border-width: 1px 0px 1px 1px;
+	border-color: black;
+	border-style: solid;
+    display: none;
+    left: -300px;
+    position: absolute;
+    top: -15px;
+    width: 289px;
+}
+.course-info ul 
+{
+	list-style:none;
+	margin-top:0;
+}
+.course-info h4
+{
+	margin:0 0 5px 27px;
+	padding:0;
+	text-decoration: underline;
+	margin-left:15px;
+}
+
+.box
+{
+	padding:0 10px;
+}
+
+input[type="submit"], button {
+width:100px;
+
+background:#09C;
+color:#fff;
+font-family: Tahoma, Geneva, sans-serif;
+height:30px;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+border: 1p solid #999;
+cursor:pointer;
+}
+input[type="submit"]:hover, button:hover {
+background:#fff;
+color:#09C;
+}
